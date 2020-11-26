@@ -7,7 +7,7 @@ class PokemonList extends Component {
   };
 
   loadPokemons = () => {
-    fetch("http://localhost:3000/pokemons/")
+    fetch(this.props.url)
       .then((response) => {
         return response.json();
       })

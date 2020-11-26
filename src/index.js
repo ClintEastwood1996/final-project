@@ -12,7 +12,7 @@ function importAll (r) {
 importAll(require.context('./assets/img/pokemons', true, /\.png|jpe?g|svg$/));
 // finish import all imgs
 
-ReactDOM.render(<App />, document.getElementById("root"));
+ReactDOM.render(<App url="http://localhost:3000/pokemons"/>, document.getElementById("root"));
 
 
 

@@ -8,7 +8,7 @@ class App extends Component {
     return (
     <React.Fragment>
         <Header />
-        <PokemonList />
+        <PokemonList url={this.props.url}/>
     </React.Fragment>
     );
   }
