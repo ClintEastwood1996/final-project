@@ -3,7 +3,6 @@ import React, { Component } from "react";
 class Pokemon extends Component {
   state = {
     caught: false,
-    otherState: "haha"
   };
 
   buttonClick = () => {
@@ -13,12 +12,16 @@ class Pokemon extends Component {
         "Content-Type": "application/json;charset=utf-8",
       },
       body: JSON.stringify({ name: this.props.name, id: this.props.id }),
-    }).then((response) => this.setState({ caught: true }));
+    }).then(() => this.setState({ caught: true }));
   };
+
+
 
   render() {
     return (
-      <div className={this.state.caught ? "pokemon-card" : "pokemon-card disabled"}>
+      <div
+        className={(this.state.caught || this.props.caught) ? "pokemon-card" : "pokemon-card disabled"}
+      >
         <div className="pokemon-card__title">{this.props.name}</div>
         <img
           src={`./pokemons//${this.props.id}.png`}
@@ -27,15 +30,15 @@ class Pokemon extends Component {
         />
         <div>
           <button
-            disabled={this.state.caught}
+            disabled={this.state.caught || this.props.caught}
             className={
-              !this.state.caught
+              !(this.state.caught || this.props.caught)
                 ? "pokemon-card__button"
                 : "pokemon-card__button pokemon-card__button_disabled"
             }
             onClick={this.buttonClick}
           >
-            {!this.state.caught ? "Catch" : "Caught"}
+            {!this.state.caught ? "Catch" : "Caught"} {/*  innerHtml */}
           </button>
         </div>
       </div>

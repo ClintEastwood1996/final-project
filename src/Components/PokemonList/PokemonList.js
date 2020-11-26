@@ -4,10 +4,11 @@ import Pokemon from "./Pokemon/Pokemon";
 class PokemonList extends Component {
   state = {
     pokemons: [],
+    caughts: [{}],
   };
 
   loadPokemons = () => {
-    fetch(this.props.url)
+    fetch("http://localhost:3000/pokemons")
       .then((response) => {
         return response.json();
       })
@@ -16,24 +17,33 @@ class PokemonList extends Component {
       });
   };
 
+  loadCaughts = () => {
+    fetch("http://localhost:3000/caughts")
+      .then((response) => {
+        return response.json();
+      })
+      .then((data) => {
+        this.setState({ caughts: data });
+      });
+  };
+
+  
+
   componentDidMount() {
     this.loadPokemons();
+    this.loadCaughts();
   }
 
   render() {
-    const PokemonsTamplate = this.state.pokemons.map(function (item, index) {
+    const PokemonsTamplate = this.state.pokemons.map((item) => {
       return (
         <div key={item.id}>
-          <Pokemon name={item.name} id={item.id}/>
+          <Pokemon name={item.name} id={item.id} caught={this.state.caughts.find(elem => item.id == elem.id)} />
         </div>
       );
     });
 
-    return (
-      <section className="pokemon-list">
-        {PokemonsTamplate}
-      </section>
-    );
+    return <section className="pokemon-list" id="pokemon-list">{PokemonsTamplate}</section>;
   }
 }
 

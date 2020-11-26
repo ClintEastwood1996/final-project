@@ -3798,6 +3798,85 @@
     }
   ],
   "caughts": [
-    
+    {
+      "name": "charmander",
+      "id": 4
+    },
+    {
+      "name": "tentacruel",
+      "id": 73
+    },
+    {
+      "name": "ponyta",
+      "id": 77
+    },
+    {
+      "name": "ivysaur",
+      "id": 2
+    },
+    {
+      "name": "venusaur",
+      "id": 3
+    },
+    {
+      "name": "wartortle",
+      "id": 8
+    },
+    {
+      "name": "pidgeotto",
+      "id": 17
+    },
+    {
+      "name": "bulbasaur",
+      "id": 1
+    },
+    {
+      "name": "squirtle",
+      "id": 7
+    },
+    {
+      "name": "charizard",
+      "id": 6
+    },
+    {
+      "name": "arcanine",
+      "id": 59
+    },
+    {
+      "name": "primeape",
+      "id": 57
+    },
+    {
+      "name": "machamp",
+      "id": 68
+    },
+    {
+      "name": "abra",
+      "id": 63
+    },
+    {
+      "name": "alakazam",
+      "id": 65
+    },
+    {
+      "name": "machop",
+      "id": 66
+    },
+    {
+      "name": "caterpie",
+      "id": 10
+    },
+    {
+      "name": "kakuna",
+      "id": 14
+    },
+    {
+      "name": "rattata",
+      "id": 19
+    },
+    {
+      "name": "fearow",
+      "id": 22
+    }
   ]
 }
