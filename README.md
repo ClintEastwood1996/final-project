@@ -1,4 +1,4 @@
-# Unfortunately, the project is not finished yet. I need to finish a few things. Thank you for understanding)).
+# to start a project you need to run two commands: run devserver (build, dev) and npm start (to run db.json)
 
 # Final project
 
