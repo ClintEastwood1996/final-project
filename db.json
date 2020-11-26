@@ -3796,5 +3796,13 @@
       "name": "magearna-original",
       "id": 10147
     }
+  ],
+
+
+  "caughts": [
+    {
+      "id": 1,
+      "caught": true
+    }
   ]
 }

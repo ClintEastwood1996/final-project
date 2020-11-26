@@ -1,3 +1,5 @@
+# Unfortunately, the project is not finished yet. I need to finish a few things. Thank you for understanding)).
+
 # Final project
 
 Это последнее задание в курсе. Дедлайн - **25.11**!
