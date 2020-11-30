@@ -3827,10 +3827,6 @@
       "id": 17
     },
     {
-      "name": "bulbasaur",
-      "id": 1
-    },
-    {
       "name": "squirtle",
       "id": 7
     },
@@ -3877,6 +3873,46 @@
     {
       "name": "fearow",
       "id": 22
+    },
+    {
+      "name": "meowth",
+      "id": 52
+    },
+    {
+      "name": "diglett",
+      "id": 50
+    },
+    {
+      "name": "venomoth",
+      "id": 49
+    },
+    {
+      "name": "spearow",
+      "id": 21
+    },
+    {
+      "name": "nidoran-m",
+      "id": 32
+    },
+    {
+      "name": "paras",
+      "id": 46
+    },
+    {
+      "name": "mankey",
+      "id": 56
+    },
+    {
+      "name": "bellsprout",
+      "id": 69
+    },
+    {
+      "name": "tauros",
+      "id": 128
+    },
+    {
+      "name": "pidgeot",
+      "id": 18
     }
   ]
 }

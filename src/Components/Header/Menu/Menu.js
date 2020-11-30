@@ -1,17 +1,19 @@
 import React, { Component } from "react";
-
+import changeHeightOfList from "../../PokemonList/changeHeightOfListFunction"
 
 class Menu extends Component {
   allClick() {
     document.querySelectorAll(".pokemon-card").forEach((elem) => {
       elem.style.display = "block";
     });
+    changeHeightOfList(580, true);
   }
 
   myClick() {
     document.querySelectorAll(".disabled").forEach((elem) => {
       elem.style.display = "none";
     });
+    changeHeightOfList(580, true);
   }
 
   render() {

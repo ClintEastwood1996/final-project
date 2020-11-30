@@ -27,8 +27,6 @@ class PokemonList extends Component {
       });
   };
 
-  
-
   componentDidMount() {
     this.loadPokemons();
     this.loadCaughts();
@@ -37,13 +35,21 @@ class PokemonList extends Component {
   render() {
     const PokemonsTamplate = this.state.pokemons.map((item) => {
       return (
-        <div key={item.id}>
-          <Pokemon name={item.name} id={item.id} caught={this.state.caughts.find(elem => item.id == elem.id)} />
-        </div>
+          <Pokemon
+            name={item.name}
+            id={item.id}
+            caught={this.state.caughts.find((elem) => item.id == elem.id)}
+          />
       );
     });
 
-    return <section className="pokemon-list" id="pokemon-list">{PokemonsTamplate}</section>;
+    return (
+      <section className="pokemon-list" id="pokemon-list">
+        <div className="pokemon-list-wrapper" id="list-wrapper">
+          {PokemonsTamplate}
+        </div>
+      </section>
+    );
   }
 }
 

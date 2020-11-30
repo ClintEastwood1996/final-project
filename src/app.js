@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Header from "./Components/Header/Header";
 import PokemonList from "./Components/PokemonList/PokemonList";
-import LoadMore from "./Components/LoadMore";
+import ControlButtons from "./Components/ControlButtons";
 
 class App extends Component {
   render() {
@@ -9,7 +9,7 @@ class App extends Component {
       <React.Fragment>
         <Header />
         <PokemonList />
-        <LoadMore />
+        <ControlButtons />
       </React.Fragment>
     );
   }

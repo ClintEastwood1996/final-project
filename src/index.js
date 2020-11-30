@@ -13,5 +13,3 @@ importAll(require.context("./assets/img/pokemons", true, /\.png|jpe?g|svg$/));
 // finish import all imgs
 
 ReactDOM.render(<App />, document.getElementById("root"));
-
-
