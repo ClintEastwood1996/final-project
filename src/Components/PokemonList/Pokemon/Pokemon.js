@@ -11,7 +11,7 @@ class Pokemon extends Component {
       headers: {
         "Content-Type": "application/json;charset=utf-8",
       },
-      body: JSON.stringify({ name: this.props.name, id: this.props.id }),
+      body: JSON.stringify({ name: this.props.name, id: this.props.id, date: new Date() }),
     }).then(() => this.setState({ caught: true }));
   };
 

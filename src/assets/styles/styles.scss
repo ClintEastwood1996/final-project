@@ -58,6 +58,7 @@ body {
       bottom: 20px;
     }
     &__item {
+      cursor: pointer;
       text-decoration: none;
       color: #fff;
       font-size: 18px;
@@ -112,8 +113,8 @@ body {
     background-color: rgba(255, 255, 255, 0.4);
     height: 250px;
     &__title {
-      color: #fff;
-      font-size: 24px;
+      color: #644040;
+      font-size: 20px;
     }
     &__img {
       width: 475px * 0.3;

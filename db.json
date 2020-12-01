@@ -3799,120 +3799,39 @@
   ],
   "caughts": [
     {
-      "name": "charmander",
-      "id": 4
-    },
-    {
-      "name": "tentacruel",
-      "id": 73
-    },
-    {
-      "name": "ponyta",
-      "id": 77
-    },
-    {
-      "name": "ivysaur",
-      "id": 2
-    },
-    {
       "name": "venusaur",
-      "id": 3
-    },
-    {
-      "name": "wartortle",
-      "id": 8
-    },
-    {
-      "name": "pidgeotto",
-      "id": 17
-    },
-    {
-      "name": "squirtle",
-      "id": 7
+      "id": 3,
+      "date": "2020-11-30T21:16:17.362Z"
     },
     {
       "name": "charizard",
-      "id": 6
+      "id": 6,
+      "date": "2020-11-30T21:16:37.730Z"
     },
     {
-      "name": "arcanine",
-      "id": 59
+      "name": "bulbasaur",
+      "id": 1,
+      "date": "2020-11-30T22:02:08.277Z"
     },
     {
-      "name": "primeape",
-      "id": 57
-    },
-    {
-      "name": "machamp",
-      "id": 68
-    },
-    {
-      "name": "abra",
-      "id": 63
-    },
-    {
-      "name": "alakazam",
-      "id": 65
-    },
-    {
-      "name": "machop",
-      "id": 66
-    },
-    {
-      "name": "caterpie",
-      "id": 10
-    },
-    {
-      "name": "kakuna",
-      "id": 14
-    },
-    {
-      "name": "rattata",
-      "id": 19
-    },
-    {
-      "name": "fearow",
-      "id": 22
-    },
-    {
-      "name": "meowth",
-      "id": 52
+      "name": "parasect",
+      "id": 47,
+      "date": "2020-11-30T22:03:31.016Z"
     },
     {
       "name": "diglett",
-      "id": 50
+      "id": 50,
+      "date": "2020-11-30T22:03:33.278Z"
     },
     {
-      "name": "venomoth",
-      "id": 49
+      "name": "persian",
+      "id": 53,
+      "date": "2020-11-30T22:03:35.166Z"
     },
     {
-      "name": "spearow",
-      "id": 21
-    },
-    {
-      "name": "nidoran-m",
-      "id": 32
-    },
-    {
-      "name": "paras",
-      "id": 46
-    },
-    {
-      "name": "mankey",
-      "id": 56
-    },
-    {
-      "name": "bellsprout",
-      "id": 69
-    },
-    {
-      "name": "tauros",
-      "id": 128
-    },
-    {
-      "name": "pidgeot",
-      "id": 18
+      "name": "pidgey",
+      "id": 16,
+      "date": "2020-11-30T22:03:40.302Z"
     }
   ]
 }
