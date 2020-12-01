@@ -49,7 +49,7 @@ class Pokemon extends Component {
               }
               onClick={this.buttonClick}
             >
-              {!this.state.caught ? "Catch" : "Caught"} {/*  innerHtml */}
+              {!(this.state.caught || this.props.caught) ? "Catch" : "Caught"} {/*  innerHtml */}
             </button>
           </div>
         </div>
